@@ -68,7 +68,7 @@ sudo cmake3 ../root -DPYTHON_EXECUTABLE=$P_EXE -DPYTHON_INCLUDE_DIR=$P_INCLUDE -
 fi
 
 echo "----------COMPILANDO------------"
-make -j8
+sudo make -j8
 
 
 
